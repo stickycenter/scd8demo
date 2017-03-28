@@ -1,0 +1,7 @@
+{
+  "name": "Slider Revolution",
+  "version": "4.6",
+  "homepage": "http://themepunch.com/revolution/",
+  "description": "Premium animated slider.",
+  "main": "js/jquery.themepunch.revolution.js",
+}
