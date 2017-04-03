@@ -18,6 +18,9 @@
 .tenant-logo {
 	margin-bottom: 2em;
 }
+.btn.btn-primary{
+	background-color: #aa5511;
+}
 /* Store Directory View  */
 @media only screen and (max-width : 768px){ 
 	.view-store-directory .directory-block {
@@ -55,11 +58,11 @@
 
 /* Home Page Banner  * */
 body {
-	background-image: url("/sites/default/files/moss_0.jpg");
+	background-image: url("/sites/default/files/wsbackwood2.jpg");
 	background-repeat: no-repeat;
 	width:100%;
 	height:auto;
-	background-color: #EED1A7;
+	background-color: #5D3A1E;
 }
 #header {
 	background: none;
