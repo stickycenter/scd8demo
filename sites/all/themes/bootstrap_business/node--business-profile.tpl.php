@@ -38,14 +38,17 @@
 		 		</div>
 		 		<div class="col-md-6">
 		 			<?php print render ($content['field_business_hours']);?> <br>
-		 			<!-- <span class="glyphicon glyphicon-tag"></span>  --><?php print render ($content['field_category']);?>
+		 			<!-- <span class="glyphicon glyphicon-tag"></span>  --><?php print render ($content['field_category']);?><br><br>
 		 		</div>
 		 	</div>
 		</div>
    </div>
    <div class="row">
-   		<div class="col-md-12">
-   			<?php print render ($content['field_offer']);?>
+   		<div class="col-md-6">
+   			<?php print render ($content['field_offer'][0]);?>
+   		</div>
+   		<div class="col-md-6">
+   			<?php print render ($content['field_offer'][1]);?>
    		</div>
    </div>
   </div>
