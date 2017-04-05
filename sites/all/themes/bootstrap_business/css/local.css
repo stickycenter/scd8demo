@@ -255,7 +255,11 @@ ul.pager li a, ul.pager li.pager-current {
 .view-display-id-block_1 {
 	text-align: center;
 }
-img.center {
-	display: block;
+.center img {
+	display: inline-block;
     margin: 0 auto;
+}
+a.btn-offer{
+	margin: 1.5em 1.85em;
+	padding: .75em
 }
