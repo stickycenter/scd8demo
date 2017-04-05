@@ -224,6 +224,38 @@ ul.pager li a, ul.pager li.pager-current {
 	border: 1.5px solid #cccccc;
 	padding: 1em;
 }
-.offer-title {
+.offer-title, .field-name-field-offer-title .field-item {
 	color: #660022;
+	font-size: 24px;
+	font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+.field-name-field-offer-subtitle {
+	font-size: 20px;
+	font-weight: 700;
+    line-height: 120%;
+}
+.offer-exp .field-name-field-exp-date {
+	text-align: center;
+}
+.views-page-offer {
+	padding: 2.5em;
+}
+.views-page-offer .views-row-odd {
+	border-bottom: 1px solid #ccc;
+    padding-bottom: 2em;
+}
+.views-page-offer .views-last {
+	border-bottom: none;
+}
+#content-wrapper h1.page-title {
+    padding: 20px 40px 0;
+    }
+.view-display-id-block_1 {
+	text-align: center;
+}
+img.center {
+	display: block;
+    margin: 0 auto;
 }

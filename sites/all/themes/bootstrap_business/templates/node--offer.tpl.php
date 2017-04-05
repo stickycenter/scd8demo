@@ -17,14 +17,18 @@
       hide($content['links']);
 	?>
 	
-	<div class"row ">
-		<div class="col-md-12 offer-meta text-center">
-		<h3 class="offer-title"><?php print render($content['field_offer_title']); ?> </h3>
-		<h4><?php print render($content['field_offer_subtitle']); ?></h4>
-		<p><?php print render($content['body']); ?></p>
-		<strong><p><?php print render($content['field_exp_date']); ?></p></strong>
-		<?php print render($content['field_barcode']); ?>
-		
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-8 offer-meta text-center">
+			<h3 class="offer-title"><?php print render($content['field_offer_title']); ?> </h3>
+			<h4><?php print render($content['field_offer_subtitle']); ?></h4>
+			<p><?php print render($content['body']); ?></p>
+			<div class="row">
+				<div class="col-md-6"><strong><p> <?php print render($content['field_exp_date']); ?></p></strong></div>
+				<div class="col-md-6"><?php print render($content['field_barcode']); ?> </div>
+			</div>
+			
    			
    			
    		</div>
