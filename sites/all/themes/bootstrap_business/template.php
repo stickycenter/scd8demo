@@ -45,7 +45,9 @@ function bootstrap_business_preprocess_html(&$variables) {
 	 * Add FontAwesome
 	 */
 
-	
+	$filepath = path_to_theme() . '/font-awesome/css/font-awesome.min.css';
+  	drupal_add_css($filepath, array('group' => CSS_THEME,));
+
 	/**
 	* Bootstrap CDN
 	*/

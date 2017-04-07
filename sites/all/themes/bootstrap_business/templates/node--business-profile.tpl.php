@@ -34,7 +34,8 @@
 		 			<?php print render ($conent['field_next_to_locator']);?><br>
 		 			<?php print render ($content['field_phone_number']);?>
 		 			<?php print render ($content['field_fax_number']);?><br>
-		 			<?php print render ($content['field_website']);?>
+		 			<?php print render ($content['field_website']);?><br>
+		 			<?php print render ($content['field_yelp_link']);?>
 		 		</div>
 		 		<div class="col-md-6">
 		 			<?php print render ($content['field_business_hours']);?> <br>
