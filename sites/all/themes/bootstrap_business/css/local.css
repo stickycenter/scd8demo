@@ -242,12 +242,13 @@ ul.pager li a, ul.pager li.pager-current {
 .views-page-offer {
 	padding: 2.5em;
 }
-.views-page-offer .views-row-odd {
+.views-page-offer .views-row {
 	border-bottom: 1px solid #ccc;
     padding-bottom: 2em;
 }
-.views-page-offer .views-last {
+.views-page-offer .views-row-last {
 	border-bottom: none;
+	padding-bottom: 0;
 }
 #content-wrapper h1.page-title {
     padding: 20px 40px 0;
